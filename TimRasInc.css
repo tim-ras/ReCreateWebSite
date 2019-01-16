@@ -31,7 +31,31 @@
             float: left;
 }
 
-.div 
+
+.logo 
+{
+	margin: 10px auto;
+	display: block;
+}
+
+.hr 
+{
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 3px;
+	color: white;
+}
+
+.test 
+{
+	display: inline-block;
+	
+}
+.div1 
 {
 			border-style: double;
 			margin: 6px; 
@@ -41,26 +65,32 @@
 
 }
 
-.logo 
+.div2 
 {
- 			margin: 10px auto;
- 			display: block;
+			border-style: double;
+			margin: 6px; 
+
+
+
+
 }
 
-.hr 
+.div3 
 {
-			display: block;
-       		margin-top: 0.5em;
-        	margin-bottom: 0.5em;
-        	margin-left: auto;
-        	margin-right: auto;
-        	border-style: solid;
-        	border-width: 3px;
-        	color: white;
+			border-style: double;
+			margin: 6px; 
+
+
+
+
 }
 
-.test 
+.div4 
 {
-			display: inline-block;
-			
+			border-style: double;
+			margin: 6px; 
+
+
+
+
 }
