@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" type="text/css" href="TimRasInc.css">
 
 <head>
     <meta charset="utf-8" />
@@ -9,7 +10,7 @@
 <body>
 
 <div>
-
+<img src="Cool logo but ok.png" class="logo">
 
 
 </div>
