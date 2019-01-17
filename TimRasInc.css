@@ -67,32 +67,25 @@
 
 }
 
-.div2
-{
-			border-style: double;
-			margin: 6px; 
-
-
-
-
+.div2 {
+    border-style: double;
+    margin: 6px;
+    display: inline-block;
 }
 
-.div3
-{
-			border-style: double;
-			margin: 6px; 
-
-
-
-
+.div3 {
+    border-style: double;
+    margin: 6px;
+    display: inline-block;
 }
 
-.div4
+.div4 {
+    border-style: double;
+    margin: 6px;
+    display: inline-block;
+}
+
+.feature 
 {
-			border-style: double;
-			margin: 6px; 
-
-
-
-
+    display: block;
 }
