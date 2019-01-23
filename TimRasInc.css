@@ -80,10 +80,23 @@
 }
 
 .div4 {
-    border-style: double;
+    border-style: none;
     margin: 6px;
     display: inline-block;
+
 }
+
+.div5 {
+    border-style: none;
+    margin: 6px;
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+
 
 .feature 
 {
