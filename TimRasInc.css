@@ -18,6 +18,7 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
+
             /* background-color: #DCDCDC; */
 }
 
@@ -29,6 +30,8 @@
             padding: 14px 16px;
             text-decoration: none;
             float: left;
+            
+
 }
 
 
@@ -93,12 +96,33 @@
     position: absolute;
     width: 400px;
     height: 400px;
-    float: left;
+
 }
 
+.div6 {
+    border-style: double;
+    margin: 6px;
+    display: inline-block;
+    position: absolute;
+    width: 1100px;
+    height: 25px;
+    text-align: center;
 
+}
+
+.Sections {
+
+    text-decoration: none;
+    margin-right: 125px;
+    color: black;
+}
 
 .feature 
 {
     display: block;
+    
+}
+
+a:hover {
+    color: red;
 }
