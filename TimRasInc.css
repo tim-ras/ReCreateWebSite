@@ -3,6 +3,13 @@
 .header 
 {
 			font-family: Courier;
+
+}
+
+.Paragraph 
+{
+
+
 }
 
 .ul
@@ -17,8 +24,8 @@
 
 .li
 {
-
-            color: white;
+            display: inline-block;
+            color: black;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
@@ -43,7 +50,7 @@
         	margin-left: auto;
         	margin-right: auto;
         	border-style: solid;
-        	border-width: 5px;
+        	border-width: 10px;
         	color: white;
 }
 
@@ -56,8 +63,7 @@
 .div1 
 {
 			border-style: double;
-            margin: 6px; 
-            display: block;
+			margin: 6px; 
 
 
 
