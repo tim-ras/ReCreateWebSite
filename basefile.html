@@ -8,6 +8,7 @@
     <title>TimRas Inc©</title>
 <script>
 
+ 
     var openFile = function(event) {
         var input = event.target;
 
@@ -21,6 +22,19 @@
         reader.readAsText(input.files[0]);
       };
 
+      function maketext()
+      {
+        
+        document.getElementById("output").innerHTML = document.getElementById("textinput").value;
+       
+
+      }
+
+      function changelogo()
+      {
+        document.getElementsByid("logo").src = "other logo.png";
+      }
+
 </script>
 
 </head>
@@ -31,7 +45,7 @@
 
     <div>
         
-        <img src="Cool logo but ok.png" class="logo">
+        <img src="Cool logo but ok.png" class="logo" id="logo">
     	
     </div>
 
@@ -81,14 +95,14 @@
 <div class="div4" style="width: 200px; margin-left: 40px; margin-bottom: 40px">
     <div>
     	<h2>Sample Text</h2>
-<p id="output">
+
     	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+
 
     </div>
 
@@ -104,11 +118,14 @@
                 Change Theme
             </button>
 
-            <button class="feature" style="margin-bottom: 20px; width: 75px; height: 75px;">
+            <button class="feature" style="margin-bottom: 20px; width: 75px; height: 75px; " onclick="changelogo()">
                 Change Logo
             </button>
 
-            <input class="feature" />
+            <form  >
+                Text input: <input id="textinput" type="text" name="fname"> <br>
+                <input  type="button" onclick="maketext()" value="Submit">
+              </form>
 
 
 
@@ -131,15 +148,15 @@
 
 
 
-	<div class="div1" style="width: 700px; margin-left: 285px; margin-top: -100px">
-		
+	<div class="div1"  style="width: 700px; margin-left: 285px; margin-top: -100px">
+		<p id="output">
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		
+        </p>
 
 
 	</div>
