@@ -30,22 +30,29 @@
 
       }
 
-      function changelogo()
+      
+      function changetheme()
       {
-        document.getElementsByid("logo").src = "otherlogo.png";
+        var randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);  
+        document.getElementById("funtheme").style.color = randomColor;
+        randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        document.getElementById("funtheme").style.backgroundColor = randomColor;
+        randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        document.body.style.color = randomColor; 
+
       }
 
 </script>
 
 </head>
-<body style="border-style: double; height: 825px">
+<body style="border-style: double; height: 825px" id="funtheme">
 <div>
 <div class="div1" style="width: 1100px; margin-left: 200px;">
 
 
-    <div>
+    <div >
         
-        <img src="Cool logo but ok.png" class="logo" id="logo">
+        <img class="logo" id="changelogo" src="Cool logo but ok.png" >
     	
     </div>
 
@@ -114,11 +121,11 @@
 
             <input class="feature" type='file' accept='text/plain' onchange='openFile(event)'>
 
-            <button class="feature" style="margin-bottom: 20px; width: 75px; height: 75px;">
+            <button class="feature" style="margin-bottom: 20px; width: 75px; height: 75px;" onclick="changetheme()">
                 Change Theme
             </button>
 
-            <button class="feature" style="margin-bottom: 20px; width: 75px; height: 75px; " onclick="changelogo()">
+            <button class="feature" style="margin-bottom: 20px; width: 75px; height: 75px; " onclick="document.getElementById('changelogo').src='otherlogo.png'">
                 Change Logo
             </button>
 
