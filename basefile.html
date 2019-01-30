@@ -6,6 +6,24 @@
     <link rel="stylesheet" type="text/css" href="TimRasInc.css">
     <meta charset="utf-8" />
     <title>TimRas Inc©</title>
+<script>
+function readTextFile()
+{
+    var openFile = function(event) {
+        var input = event.target;
+
+        var reader = new FileReader();
+        reader.onload = function(){
+          var text = reader.result;
+          var node = document.getElementById('output');
+          node.innerText = text;
+          console.log(reader.result.substring(0, 200));
+        };
+        reader.readAsText(input.files[0]);
+      };
+}
+</script>
+
 </head>
 <body style="border-style: double; height: 825px">
 <div>
