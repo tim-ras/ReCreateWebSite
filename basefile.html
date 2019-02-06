@@ -126,18 +126,18 @@
 
         
 
-            <input class="feature" type='file' accept='text/plain' onchange='openFile(event)'>
+            <input class="feature" type='file' accept='text/plain' onchange='openFile(event)'> <!-- this is the feature to load in a text file from the computer and display the text -->
 
-            <button class="feature" style="margin-bottom: 20px; width: 75px; height: 75px;" onclick="changetheme()">
+            <button class="feature" style="margin-bottom: 20px; width: 75px; height: 75px;" onclick="changetheme()"> <!--this is the feature to change the theme -->
                 Change Theme
             </button>
 
-            <button class="feature" style="margin-bottom: 20px; width: 75px; height: 75px; " onclick="document.getElementById('changelogo').src='otherlogo.png'">
+            <button class="feature" style="margin-bottom: 20px; width: 75px; height: 75px; " onclick="document.getElementById('changelogo').src='otherlogo.png'"> <!--this is the feature to change the logo-->
                 Change Logo
             </button>
 
             <form  >
-                Text input: <input id="textinput" type="text" name="fname"> <br>
+                Text input: <input id="textinput" type="text" name="fname"> <br> <!-- this is the feature to take input from the user and paste it in a <p> -->
                 <input  type="button" onclick="maketext()" value="Submit">
               </form>
 
